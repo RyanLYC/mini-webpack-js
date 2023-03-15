@@ -1,0 +1,18 @@
+{
+  "name": "mini-webpack-js",
+  "version": "1.0.0",
+  "author": "lyc",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./index.js",
+    "build:webapck": "webpack --display-chunks --color  --progress --config webpack.config.js",
+    "start": "node ./dist/bundle.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/parser": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/traverse": "^7.21.3"
+  }
+}
