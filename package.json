@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "build": "node ./index.js",
-    "build:webapck": "webpack --display-chunks --color  --progress --config webpack.config.js",
     "start": "node ./dist/bundle.js"
   },
   "dependencies": {
